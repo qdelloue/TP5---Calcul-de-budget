@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP5 - Calcul de budget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Calcul des dépenses</h1>
+
+        <p class="depenses-p">Les dépenses fixes</label>
+    
+        <div>
+            <label>Loyer et charges</label>
+            <input type="number" id="loyer-charges">
+        </div>
+        <div>
+            <label>Remboursement de crédits</label>
+            <input type="number" id="remboursement-credit">
+        </div>
+        <div>
+            <label>Eau/électricité/gaz</label>
+            <input type="number" id="eau-electricite-gaz">
+        </div>
+        <div>
+            <label>Téléphone - internet</label>
+            <input type="number" id="telephone-internet">
+        </div>
+        <div>
+            <label>Assurance habitation</label>
+            <input type="number" id="assurance-habitation">
+        </div>
+        <div>
+            <label>Assurance véhicules</label>
+            <input type="number" id="assurance-vehicules">
+        </div>
+        <div>
+            <label>Mutuelle santé</label>
+            <input type="number" id="mutuelle-sante">
+        </div>
+        <div>
+            <label>Frais de garde</label>
+            <input type="number" id="frais-garde">
+        </div>
+        <div>
+            <label>Impôts sur le revenu</label>
+            <input type="number" id="impots-revenu">
+        </div>
+        <div>
+            <label>Impôts locaux</label>
+            <input type="number" id="impots-locaux">
+        </div>
+    
+        <p class="depenses-p">Les dépenses courantes</label>
+    
+        <div>
+            <label>Courses</label>
+            <input type="number" id="courses">
+        </div>
+        <div>
+            <label>Essence/frais de transport en commun</label>
+            <input type="number" id="essence-frais-transport">
+        </div>
+        <div>
+            <label>Activités sportives et culturelles</label>
+            <input type="number" id="activites-sportives-culturelles">
+        </div>
+    
+        <p class="depenses-p">Les dépenses occasionnelles</label>
+    
+        <div>
+            <label>Sorties</label>
+            <input type="number" id="sorties">
+        </div>
+    </section>
+
+    <section>
+        <h1>Calcul des recettes</h1>
+
+        <div>
+            <label>Salaire</label>
+            <input type="number" id="salaire">
+        </div>
+        <div>
+            <label>Aides (allocations, etc)</label>
+            <input type="number" id="aides">
+        </div>  
+        <div>
+            <label>Rentes</label>
+            <input type="number" id="rentes">
+        </div>
+        <div>
+            <label>Autres</label>
+            <input type="number" id="autres">
+        </div>
+    </section>
+
+    <section>
+        <h1>Calcul de l'épargne</h1>
+
+        <div>
+            <label>Épargne</label>
+            <input type="number" id="epargne">
+        </div>
+    </section>
+
+    <section id="resultat">
+        <h1>Résultat</h1>
+
+        <button type="submit" id="submit">Valider</button>
+        <button type="button" id="reset">Reset</button>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

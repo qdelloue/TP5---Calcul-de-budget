@@ -1,0 +1,64 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.depenses-p {
+    margin: 32px 0 16px 0;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reset {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
